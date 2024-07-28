@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(3, 3, 100);
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 13, 153);
+    color: white;
+    padding: 19px 12px;
+    line-height: 22px;
+}
+
+ul {
+    display: flex;
+    
+} 
+
+ul li {
+    list-style: none;
+    padding: 0 13px;
+    background-color: rgb(27, 13, 153);
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(27, 13, 153);
+}
+
+ul >li> a:hover{
+    color: rgb(192, 189, 205);
+}
+
+
+.left h1{
+    .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+    
+    font-size: 2rem;
+   
+    background-color: rgb(27, 13, 153);
+}
+
+.left p{
+ font-size: small;
+ background-color: rgb(27, 13, 153);
+}
+.firstsection {
+    display: flex;
+    justify-content:space-around;
+    margin: 0px 0;
+    align-items: center;
+
+}
+.firstsection > div {
+    width: 36%;
+    font-size: 2.5rem;
+    
+}
+.rightsection img {
+    width: 90%;
+   margin: 20px 0;
+    
+
+}
+.color
+{
+    color: rgb(178, 132, 221);
+}
+ 
+#element {
+    color: rgb(178, 132, 221);
+}
+.service{
+    margin: 120px 0;
+}
