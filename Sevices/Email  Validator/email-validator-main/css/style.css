@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(160, 221, 221);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkcyan;
+    color: white;
+    padding: 19px 12px;
+    line-height: 22px;
+}
+
+ul {
+    display: flex;
+    
+}
+
+ul li {
+    list-style: none;
+    padding: 0 13px;
+    background-color: darkcyan;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    background-color: darkcyan;
+}
+
+ul >li> a:hover{
+    color: rgb(192, 189, 205);
+}
+
+main{
+    min-height: 100vh; 
+    
+}
+ span {
+    background-color: darkcyan;
+ }
+.logo {
+    
+    background-color: darkcyan;
+}
+.logo h1{
+    .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+      background-color: darkcyan;
+    font-size: xx-large;}
+.logo p{
+    font-size: small;
+    background-color: darkcyan;
+}
+
+
+
+.container{ 
+    max-width: 80vw;
+    margin: auto;
+    padding: 9px 15px;
+}
+
+.container h1{
+    padding: 12px 0;
+}
+
+input[type='text']{
+    min-width: 23vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 9px 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#resultCont div::first-letter{
+    text-transform: uppercase;
+}
+
+footer{
+    font-size: 12px;
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        font-size: 12px; 
+    }
+
+    input[type='text'] {
+        width: 100%; 
+    }
+
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 6px 0;
+        font-size: 12px;
+    }
+    .logo span{
+        font-size: 20px;
+    }
+    .logo img{
+        width: 15px;
+        filter: invert(1);
+    }
+  }
